@@ -4,27 +4,21 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Drawer from 'components/drawer';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link } from 'react-scroll';
-import { FaFacebookF, FaTwitter, FaGithubAlt, FaDribbble } from 'react-icons/fa';
+import {  FaTwitter,  FaInstagram } from 'react-icons/fa';
 import menuItems from './header.data';
 import { viewStyleAutoHeight } from 'react-custom-scrollbars/lib/Scrollbars/styles';
 
 const social = [
   {
-    path: '/',
-    icon: <FaFacebookF />,
+    path: 'https://www.instagram.com/jazartistry__',
+    icon: <FaInstagram />,
   },
   {
     path: '/',
     icon: <FaTwitter />,
   },
-  {
-    path: '/',
-    icon: <FaGithubAlt />,
-  },
-  {
-    path: '/',
-    icon: <FaDribbble />,
-  },
+ 
+  
 ];
 
 export default function MobileDrawer() {
