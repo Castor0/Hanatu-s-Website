@@ -101,7 +101,7 @@ const carouselParams = {
 
 export default function TestimonialCard() {
   return (
-   <h1>Testimonial Card</h1>
+   <></>
   );
 }
 

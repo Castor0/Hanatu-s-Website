@@ -10,7 +10,7 @@ import { viewStyleAutoHeight } from 'react-custom-scrollbars/lib/Scrollbars/styl
 
 const social = [
   {
-    path: 'https://www.instagram.com/jazartistry__',
+    path: '/',
     icon: <FaInstagram />,
   },
   {
@@ -61,7 +61,6 @@ export default function MobileDrawer() {
                   <Link to={socialItem.path}>{socialItem.icon}</Link>
                 </Box>
               ))}
-
             </Box>
           </Box>
         </Box>

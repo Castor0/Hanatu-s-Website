@@ -11,10 +11,12 @@ export default function Logo({ src, ...rest }) {
       display: 'flex',
       cursor: 'pointer',
       mr: 15,
+      
         }}
         {...rest}
     >  
-    <Image src={src} alt="landing page logo" /> 
+   {/*<Image src={src} alt="landing page logo" /> */} 
+    JAZARTISTERY
     </Link>
   );
 }
