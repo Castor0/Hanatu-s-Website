@@ -11,10 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as ="h1" variant="heroPrimary">
-            Home To Some of the Best Gamers in The Country
+              MAKEUP. SKINCARE & COSMETICS
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Glits and Glamour all in one package
+            Your best look. Our Promise
           </Text>
           <Button variant="primary"> Explore </Button>
 

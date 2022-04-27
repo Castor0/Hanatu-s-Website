@@ -6,7 +6,7 @@ export default function TextFeature({
   title,
   description,
   btnName,
-  btnURL = '#',
+  btnURL = 'google.com',
 }) {
   return (
 <Box sx={styles.card}>
